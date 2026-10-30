@@ -1,0 +1,10 @@
+repo: siakhooi/rpms
+branch: main
+git_commit_user: date-formats
+git_commit_email: date-formats@siakhooi.github.io
+git_commit_message: "{repo_name}: {ref_name} | {commit_short}"
+
+files:
+  - source: target/rpm/siakhooi-date-formats-*-1.noarch.rpm
+    target: docs/
+    items: 1
