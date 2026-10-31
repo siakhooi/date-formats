@@ -1,6 +1,6 @@
 {
-	"name": "Debian Development Dev Container",
-	"image": "siakhooi/devcontainer:deb2604",
+	"name": "Bash Development Dev Container",
+	"image": "siakhooi/devcontainer:nfpm",
 	"remoteUser": "maui",
 	"containerUser": "maui",
 	"updateRemoteUserUID": true,

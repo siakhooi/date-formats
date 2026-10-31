@@ -5,6 +5,6 @@ git_commit_email: date-formats@siakhooi.github.io
 git_commit_message: "{repo_name}: {ref_name} | {commit_short}"
 
 files:
-  - source: siakhooi-date-formats-*.fc*.noarch.rpm
+  - source: target/rpm/siakhooi-date-formats-*-1.noarch.rpm
     target: docs/
     items: 1

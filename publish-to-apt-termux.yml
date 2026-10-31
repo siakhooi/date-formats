@@ -1,10 +1,10 @@
-repo: siakhooi/apt
+repo: siakhooi/apt-termux
 branch: main
 git_commit_user: date-formats
 git_commit_email: date-formats@siakhooi.github.io
 git_commit_message: "{repo_name}: {ref_name} | {commit_short}"
 
 files:
-  - source: siakhooi-date-formats_*_amd64.deb
-    target: docs/pool/main/binary-amd64/
+  - source: target/termux/siakhooi-date-formats_*-1_all.deb
+    target: docs/pool/main/siakhooi-date-formats/
     items: 1
