@@ -6,7 +6,7 @@
 [![Wise](https://img.shields.io/badge/Funding-Wise-33cb56.svg?logo=wise)](https://wise.com/pay/me/siakn3)
 ![visitors](https://hit-tztugwlsja-uc.a.run.app/?outputtype=badge&counter=ghmd-bash-date-formats)
 
-Package `siakhooi-date-formats` to provide commands to print date in predefined formats.
+Package `siakhooi-date-formats` provides commands to print date in predefined formats.
 
 ## Commands
 
