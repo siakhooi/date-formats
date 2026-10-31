@@ -1,33 +1,24 @@
 # date-formats
 
-siakhooi-date-formats bash package for date-formats
+Package `siakhooi-date-formats` to provide commands to print date in predefined formats.
 
-## Installation
-### Deb
+## Commands
+
+```bash
+y2y [date arguments]  # year to year, eg 2023
+y2m [date arguments]  # year to month, eg 202303
+y2d [date arguments]  # year to day, eg 20230307
+y2h [date arguments]  # year to hour, eg 2023030709
+y2M [date arguments]  # year to minute, eg 202303070934
+y2s [date arguments]  # year to second, eg 20230307093424
+y2n [date arguments]  # year to nanoseconds, eg 20230307093424.976695602
 ```
-$ sudo curl -L https://siakhooi.github.io/apt-linux/siakhooi-apt-linux.list | sudo tee /etc/apt/sources.list.d/siakhooi-apt-linux.list > /dev/null
-$ sudo curl -L https://siakhooi.github.io/apt-linux/siakhooi-apt-linux.gpg  | sudo tee /usr/share/keyrings/siakhooi-apt-linux.gpg > /dev/null
-$ sudo apt update
-$ sudo apt install siakhooi-date-formats
-```
-### Rpm
-```
-sudo curl -L https://siakhooi.github.io/rpms/siakhooi-rpms.repo | sudo tee /etc/yum.repos.d/siakhooi-rpms.repo > /dev/null
-sudo yum install siakhooi-date-formats
-```
-### Termux
-```
-$ curl -L https://siakhooi.github.io/apt-termux/siakhooi-apt-termux.list -o $PREFIX/etc/apt/sources.list.d/siakhooi-apt-termux.list
-$ curl -L https://siakhooi.github.io/apt-termux/siakhooi-apt-termux.gpg  -o $PREFIX/etc/apt/trusted.gpg.d/siakhooi-apt-termux.gpg
-$ apt update
-$ apt install siakhooi-date-formats
-```
-## Requirements
 
 ## Deployments
-- https://siakhooi.github.io/apt-linux/
-- https://siakhooi.github.io/apt-termux/
-- https://siakhooi.github.io/rpms/
+
+- https://siakhooi.github.io/apt-linux
+- https://siakhooi.github.io/apt-termux
+- https://siakhooi.github.io/rpms
 
 ## Badges
 
@@ -43,13 +34,12 @@ $ apt install siakhooi-date-formats
 ![GitHub repo size](https://img.shields.io/github/repo-size/siakhooi/date-formats?logo=github)
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/siakhooi/date-formats?logo=github)
 ![Workflow](https://img.shields.io/badge/Workflow-github-purple)
-![workflow](https://github.com/siakhooi/date-formats/actions/workflows/workflow-build.yml/badge.svg)
-![workflow](https://github.com/siakhooi/date-formats/actions/workflows/workflow-release.yml/badge.svg)
-
+![workflow](https://github.com/siakhooi/date-formats/actions/workflows/workflow-build-with-quality-checks.yml/badge.svg)
+![workflow](https://github.com/siakhooi/date-formats/actions/workflows/workflow-deployments.yml/badge.svg)
 ![Release](https://img.shields.io/badge/Release-github-purple)
 ![GitHub release (latest by date)](https://img.shields.io/github/v/release/siakhooi/date-formats?label=GPR%20release&logo=github)
 ![GitHub all releases](https://img.shields.io/github/downloads/siakhooi/date-formats/total?color=33cb56&logo=github)
 ![GitHub Release Date](https://img.shields.io/github/release-date/siakhooi/date-formats?logo=github)
 
 [![Wise](https://img.shields.io/badge/Funding-Wise-33cb56.svg?logo=wise)](https://wise.com/pay/me/siakn3)
-![visitors](https://hit-tztugwlsja-uc.a.run.app/?outputtype=badge&counter=ghmd-date-formats)
+![visitors](https://hit-tztugwlsja-uc.a.run.app/?outputtype=badge&counter=ghmd-bash-date-formats)
